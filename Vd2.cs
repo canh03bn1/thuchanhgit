@@ -1,8 +1,3 @@
-// BadSchoolProgram.cs
-// Chương trình quản lý trường học bằng C# cực kỳ BAD CODE
-// Gồm: Sinh viên, Giáo viên, Môn học, Đăng ký, Điểm
-// Tất cả lưu bằng List<string> kiểu "id|field1|field2|..."
-
 using System;
 using System.Collections.Generic;
 
@@ -162,7 +157,7 @@ public class BadSchoolProgram
                     }
                 }
             }
-            
+
             // Quản lý giáo viên, môn học, đăng ký, điểm, báo cáo 
             // (phần này em giữ nguyên cấu trúc như bản Java 10 trang)
             // copy-paste gần y nguyên, chỉ đổi cú pháp sang C#
